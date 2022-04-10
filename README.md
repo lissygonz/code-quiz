@@ -7,6 +7,7 @@ A quiz to test some Javascript basic knowledge, good luck!
 
 CSS
 HTML
+JAVASCRIPT
 
 ## WEBSITE
 
