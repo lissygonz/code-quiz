@@ -13,7 +13,6 @@ JAVASCRIPT
 <img width="871" alt="Screen Shot 2022-04-10 at 4 29 33 PM" src="https://user-images.githubusercontent.com/99147859/162638563-eb35f217-5dd1-4297-90a7-40b3761659f5.png">
 
 ## WEBSITE
-https://github.com/lissygonz/code-quiz
-
+https://lissygonz.github.io/code-quiz/
 ## CONTRIBUTOR
 Made with ❤️ by Lisette Gonzalez
