@@ -127,7 +127,7 @@
         correctAnswer: "c" //parentheses
       },
       {
-        question: " Arrays in Javascript can be uses to store ______?",
+        question: " Arrays in Javascript can be used to store ______?",
         answers: {
           a: "Numbers and Strings",
           b: "Other Arrays",
@@ -137,7 +137,7 @@
         correctAnswer: "d" //all of the above
       },
       {
-          question: "A very useful tool used during debugging and developmemt for printing content in the debugger is...",
+          question: "A very useful tool used during debugging and development for printing content in the debugger is...",
           answers: {
               a: "Javascript",
               b: "Terminal",
@@ -148,20 +148,20 @@
       correctAnswer: "d" //console.log
         },
  
-      {
-          questions: "String values must be enclosed within ___ when being assigned to variables",
-
-          answers: {
-              a: "Commas",
-              b: "Curly Brackets",
-              c: "Quotes",
-              d: "Parantheses"
+        {
+            question: "String values must be enclosed within- when being assigned to variables",
+            answers: {
+                a: "Commas",
+                b: "Curly Brackets",
+                c: "Quotes",
+                d: "Parantheses"
             },
+        
         correctAnswer: "c" //quotes
-      }
+          },
     ];
   
-    // Kick things off
+    
     buildQuiz();
   
     //seperating
