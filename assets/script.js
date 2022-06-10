@@ -143,7 +143,7 @@
               b: "Terminal",
               c: "For Loops",
               d: "console.log"
-          },
+          }, 
       
       correctAnswer: "d" //console.log
         },
