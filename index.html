@@ -7,6 +7,51 @@
 <title> Timed Coding Quiz</title>
 <link rel="stylesheet" href="./assets/style.css" />
 </head>
-    
+
+<body>
+    <header>
+        <div class="scores">
+            <a id="'highscores-link">View High Scores</a>
+        </div>
+        <div id="timer" class="timer">Time 75</div>
+    </header>
+    <section id="start-container" class="start-quiz">
+        <h1> Welcome to Javascript Quiz Challenge!</h1>
+        <p>
+            You have 75 seconds to try to get to the highest score by answering five 
+            series of Javascript questions.Incorrect answers will deduct 
+            your time by ten seconds.Your total score will be your time after
+            you answer the last question. Click start when you are ready!
+        </p>
+        <div class="controls">
+            <button id="start-btn" class="start-btn"> Start Quiz</button>
+        </div>
+    </section>
+
+    <section id="question-container" class="hide">
+        <h1 id="question"> Questions</h1>
+        <div id="amswer-buttons" class="btn-grid">
+            <button class="btn">Answer 1</button>
+            <button class="btn">Answer 2</button>
+            <button class="btn">Answer 3</button>
+            <button class="btn">Answer 4</button>
+        </div>
+        <h2 id="check-answer" class="correct-wrong hide"></h2>
+        <div class="controls">
+            <button id="next-btn" class="next-btn hide">Next</button>
+        </div>
+    </section>
+
+    <section id="score-container" class="hide">
+    <form id="submit-form">
+        <h3 id="your-score"></h3>
+        <label id="initals-label"> Enter you intials to save the score:</label>
+        <input type="text" id="intials-field" maxlength="3" placeholder="Enter your initials" />
+        <button id="submit-btn"> Submit</button>
+    </form>
+    </section>
+
+
+
 </body>
 </html>
